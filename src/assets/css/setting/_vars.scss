@@ -1,0 +1,35 @@
+:root{
+  --mainEng-font:'Montserrat';
+  --mainKor-font:'Noto Sans KR';
+  --mainNum-font:'GmarketSansMedium';
+
+  --mainBg-color:#f2ede8;
+  --subBg1:#cdc0b1;
+  --subBg2:#afa395;
+  --subBg3:#81887c;
+  --subBg4:#afa7a2;
+  --subBg5:#a6afa2;
+
+  --white:#fff;
+  --black:#090909;
+  --black1:#2b2b2b;
+  --black2:#434343;
+  --black3:#686868;
+  --black4:#e0e0e0;
+
+  font-family:var(--mainEng-font), var(--mainKor-font);
+  font-size:16px;
+  line-height:1.6;
+  font-weight:400;
+
+  text-rendering: optimizeLegibility;  /* 가독성 최적화 */
+  font-synthesis: none;  /* italic, bold 지정폰트 없는 경우 대체폰트없이 스타일 유지 */
+  -webkit-font-smoothing:antialiased; /* chrome, safari */
+  -moz-osx-font-smoothing:grayscale;  /* firefox, macOs */
+  -webkit-text-size-adjust:100%; /* 모바일에서 텍스트 크기 자동조정 하지 않고 지정크기 그대로 */
+
+  @media (max-width:800px){
+    font-size:14px;
+    line-height:1.4;
+  }
+}
