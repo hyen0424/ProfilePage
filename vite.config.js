@@ -1,8 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/profile/",
-  plugins: [react({ jsxRuntime: "automatic" })],
+  plugins: [react()],
+  base: "/ProfilePage/",
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+  },
 });

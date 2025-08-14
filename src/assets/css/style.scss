@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-@import "setting/reset";
-@import "setting/font";
-@import "setting/vars";
-@import "setting/mixin";
+@use "setting/reset";
+@use "setting/font";
+@use "setting/vars";
+@use "setting/mixin" as *;
 
-@import "section/header";
-@import "section/footer";
-@import "section/content";
+@use "section/header";
+@use "section/footer";
+@use "section/content";
